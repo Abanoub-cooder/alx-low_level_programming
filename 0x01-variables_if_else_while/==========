@@ -1,0 +1,32 @@
+n
+sitive_or_negative.c:20: ERROR: spaces required around that '==' (ctx:WxV)
+total: 1 errors, 0 warnings, 26 lines checked
+main
+root@02ee294e923e:/alx-low_level_programming/0x01-variables_if_else_while# vi 0-positive_or_negative.c
+root@02ee294e923e:/alx-low_level_programming/0x01-variables_if_else_while# betty 0-positive_or_negative.c
+
+========== 0-positive_or_negative.c ==========
+main
+root@02ee294e923e:/alx-low_level_programming/0x01-variables_if_else_while# gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
+0-positive_or_negative.c: In function ‘main’:
+0-positive_or_negative.c:24:9: error: missing terminating " character [-Werror]
+   24 |  printf("\");
+      |         ^
+0-positive_or_negative.c:24:9: error: missing terminating " character
+   24 |  printf("\");
+      |         ^~~~~
+0-positive_or_negative.c:25:2: error: expected expression before ‘return’
+   25 |  return (0);
+      |  ^~~~~~
+0-positive_or_negative.c:25:13: error: expected ‘;’ before ‘}’ token
+   25 |  return (0);
+      |             ^
+      |             ;
+   26 | }
+      | ~            
+0-positive_or_negative.c:26:1: error: control reaches end of non-void function [-Werror=return-type]
+   26 | }
+      | ^
+cc1: all warnings being treated as errors
+root@02ee294e923e:/alx-low_level_programming/0x01-variables_if_else_while# 
+
